@@ -8,7 +8,7 @@ var persons = ['张三','张三','王五'];
 /**
  * Each child in an array or iterator
  * should have a unique "key" prop.
- *
+ * {}渲染的是里面JS代码的返回值,无返回值无意义
  */
 ReactDOM.render(
      <div>
