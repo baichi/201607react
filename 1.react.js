@@ -7,10 +7,11 @@
  * jsx = javascript+xml(html)
  *
  * 1参数  是要渲染的内容 也就是要插入到DOM元素内部的标签
+ *   有且只能有一个顶级元素
  * 2参数  画布，要渲染到哪个DOM元素的内容
  */
 
 ReactDOM.render(
-    <h1>珠峰培训</h1>,
+    <div><h1>珠峰培训</h1><h1>珠峰培训</h1><h1>珠峰培训</h1></div>,
     document.getElementById('app')
 );
