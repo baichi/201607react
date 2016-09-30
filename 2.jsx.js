@@ -10,11 +10,12 @@ var persons = ['张三','张三','王五'];
  * should have a unique "key" prop.
  * {}渲染的是里面JS代码的返回值,无返回值无意义
  */
+var style = {color:'red'};
 ReactDOM.render(
      <div>
          {
             persons.map(function(item,index,input){
-                return <div key={index}>{item}</div>
+                return <div className="bg" style={style} key={index}>{item}</div>
             })
          }
      </div>
